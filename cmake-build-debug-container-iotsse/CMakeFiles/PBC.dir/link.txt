@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPBC.a CMakeFiles/PBC.dir/Util/PBC/G.cc.o CMakeFiles/PBC.dir/Util/PBC/G1.cc.o CMakeFiles/PBC.dir/Util/PBC/G2.cc.o CMakeFiles/PBC.dir/Util/PBC/GT.cc.o CMakeFiles/PBC.dir/Util/PBC/Pairing.cc.o CMakeFiles/PBC.dir/Util/PBC/PPPairing.cc.o CMakeFiles/PBC.dir/Util/PBC/Zr.cc.o
+/usr/bin/ranlib libPBC.a

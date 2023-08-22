@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/deploy/home/deploy/IOTSSE -B /home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse

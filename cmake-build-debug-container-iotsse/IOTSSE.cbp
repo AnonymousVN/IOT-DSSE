@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IOTSSE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PBC">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/libPBC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 PBC"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PBC/fast">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/libPBC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 PBC/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChameleonHashTest">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/ChameleonHashTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 ChameleonHashTest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChameleonHashTest/fast">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/ChameleonHashTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 ChameleonHashTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IOTSSE">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/IOTSSE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 IOTSSE"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IOTSSE/fast">
+				<Option output="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/IOTSSE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Core"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util"/>
+					<Add directory="/home/deploy/home/deploy/IOTSSE/Util/PBC"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 IOTSSE/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/deploy/home/deploy/IOTSSE/cmake-build-debug-container-iotsse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEDBOwner.cpp">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEDBOwner.h">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEServer.cpp">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEServer.h">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEUser.cpp">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Core/IOTSSEUser.h">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Test/ChameleonHashTest.cpp">
+			<Option target="ChameleonHashTest"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/ChameleonHash.cpp">
+			<Option target="ChameleonHashTest"/>
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/ChameleonHash.h">
+			<Option target="ChameleonHashTest"/>
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/CommonUtils.cpp">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/CommonUtils.h">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G1.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G1.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G2.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/G2.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/GT.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/GT.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/PPPairing.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/PPPairing.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/Pairing.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/Pairing.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/Zr.cc">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/Util/PBC/Zr.h">
+			<Option target="PBC"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/main.cpp">
+			<Option target="IOTSSE"/>
+		</Unit>
+		<Unit filename="/home/deploy/home/deploy/IOTSSE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
