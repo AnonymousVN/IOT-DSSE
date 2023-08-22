@@ -1,0 +1,38 @@
+version: "3.4"
+
+x-defaults: &default
+  restart: unless-stopped
+  # Build from the Dockfile in the current path
+  build: .
+  volumes:
+    # mount the source code folder to the path /home/deploy/IOTSSE
+    - ..:/home/deploy/IOTSSE/
+
+services:
+  projects-dev:
+    <<: *default
+    container_name: IOTSSE-dev
+    hostname: "IOTSSE"
+    # Set username and work dir
+    user: deploy
+    working_dir: /home/deploy/IOTSSE
+    # Set ulimits:
+    deploy:
+      resources:
+        limits:
+            cpus: '1.0'
+#           cpus: '0.9'
+#          memory: 2G
+#          memory: 16G
+    # Enable GDB server to run
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
+    # Start ssh service
+    # Use tail -f to run the container in the background
+    command:
+      bash -c "sudo service ssh restart && tail -f /dev/null"
+    # Map 22 to 2222 in local machine
+    ports:
+      - "127.0.0.1:2222:22"
