@@ -33,7 +33,7 @@ sudo rm -rf pbc-0.5.14
 ## Project Download and Compilation
 Clone the project from the GitHub by running:
 ````
-git clone https://github.com/shangqimonash/IOTSSE.git
+git clone https://github.com/hongyentran/IOTSSE.git
 ````
 
 Then, you should be able to compile the code with the following commands:
@@ -50,6 +50,3 @@ named ``IOTSSE`` under the build folder. Please move the file to the ``Data`` fo
 ````
 ./IOTSSE
 ````
-
-Recently, the parameter is hard-coded into the ``main.cpp`` file. Please refer to the ``main.cpp`` file for 
-the configuration.
